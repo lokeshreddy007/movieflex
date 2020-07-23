@@ -1,0 +1,4 @@
+[build]
+base = "movieflex/"
+publish = "movieflex/build/"
+command = "npm run build"
