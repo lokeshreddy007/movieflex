@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
 
+import Row from './Row'
+import requests from './requests'
+
 function App() {
   return (
     <div className="App">
-      <h1> Hey </h1>
+      <Row title="Nexflex Originals" fetchUrl={requests.fetchNetflexOriginals}/>
+      <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
     </div>
   );
 }
