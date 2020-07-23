@@ -1,7 +1,7 @@
-    import React, { useState, useEffect } from 'react'
+    import React, { useState, useEffect } from 'react';
 
-    import axios from './axios'
-    import "./Row.css"
+    import axios from './axios';
+    import "./Row.css";
     const imageBaseUrl = "https://image.tmdb.org/t/p/original/";
 
     function Row({ title, fetchUrl, isLargeRow }) {
